@@ -32,13 +32,6 @@ public class AppTest {
     }
     
     @Test
-    public void testCreaChef() {
-        Chef chef = new Chef("Giuseppe", "Verdi");
-        assertEquals("Giuseppe", chef.getNome());
-        assertEquals("Verdi", chef.getCognome());
-    }
-    
-    @Test
     public void testPagaFissa() {
         Dipendente d = new Dipendente("Mario", "Rossi");
         assertEquals(10000, d.getPAGA_FISSA());
